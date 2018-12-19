@@ -3,7 +3,9 @@ Camel case class name/property convert to Pascal Case
 
 <h3>Camel case data;</h3>
 </br>
+
 ```
+
 public class testData
 {
    public string name { get; set; }
@@ -21,6 +23,7 @@ public class testData2
 <h3>Convert to Pascal Case;</h3>
 
 ```
+
 public class TestData
 {
    public string Name { get; set; }
