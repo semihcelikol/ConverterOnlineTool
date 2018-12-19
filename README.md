@@ -2,7 +2,6 @@
 Camel case class name/property convert to Pascal Case
 
 <h3>Camel case data;</h3>
-</br>
 
 ```
 
@@ -19,7 +18,6 @@ public class testData2
 }
 ```
 
-</br>
 <h3>Convert to Pascal Case;</h3>
 
 ```
