@@ -26,7 +26,8 @@
 </nav>
 
 <div class="container">
-    <div class="col-md-10">
+  <div class="row">
+    <div class="col-md-9">
         <b>Camel case</b>
         <textarea class="form-control" id="dataCamelCase" name="dataCamelCase" rows="10" cols="50">
 public class testData
@@ -44,11 +45,33 @@ public class testData2
         <p></p>
         <input type="button" value="Convert Pascal Case" onclick="CamelCaseToPascalCase()" class="btn btn-primary" />
     </div>
-    </br>
-    <div class="col-md-10">
+    <p></p>
+    <div class="col-md-9">
+    <br>
         <b>Pascal case</b>
         <textarea class="form-control" id="dataPascalCase" name="dataPascalCase" rows="10" cols="50"></textarea>
     </div>
+  </div>
 </div>
+<br>
+<div class="container">
+<div class="row">
+      <div class="col-md-5">
+        <h2> Github</h2>
+        <p> Github Repositories</p>
+        <p><a class="btn btn-secondary" href="https://github.com/semihcelikol/ConvertToPascalCase" role="button">View details »</a></p>
+      </div>
+      <div class="col-md-5">
+        <h2> Blog</h2>
+        <p> Blog Post</p>
+        <p><a class="btn btn-secondary" href="http://semihcelikol.com/camel-case-to-pascal-case/" role="button">View details »</a></p>
+      </div>
+    </div>
+</div>
+
+<br>
+<footer class="container">
+  <p>© semihcelikol.com</p>
+</footer>
 </body>
 </html>
