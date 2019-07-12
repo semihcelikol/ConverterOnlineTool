@@ -55,7 +55,7 @@ public class testData2
       <div class="col-md-5">
         <h2> Github</h2>
         <p> Github Repositories</p>
-        <p><a class="btn btn-secondary" href="https://github.com/semihcelikol/addOnCamelCaseToPascalCase" role="button">View details »</a></p>
+        <p><a class="btn btn-secondary" href="https://github.com/semihcelikol/ConvertToPascalCase" role="button">View details »</a></p>
       </div>
       <div class="col-md-5">
         <h2> Blog</h2>
