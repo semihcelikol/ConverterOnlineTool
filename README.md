@@ -4,7 +4,9 @@
 Automatically generate DataContractAtrribute Class and Members.
 Enter your ClassName and variable Types,Name. Press the Generate button and automatically generate your class.
 <h3>Example output</h3>
+
 ```
+
 [DataContractAttribute]
 class SemResultModel
 {
@@ -31,9 +33,6 @@ public boolean parmSuccess(boolean _success = success)
 
 
 ```
-
-Generate
-
 
 # ConvertToPascalCase
 Camel case class name/property convert to Pascal Case: http://converter.semihcelikol.com/modelClassConverter.html
