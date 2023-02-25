@@ -1,7 +1,7 @@
 # Converter online tool
 
 # Dynamics Ax Converter
-http://converter.semihcelikol.com/dynamicsAxConverter.html
+https://converter.semihcelikol.com/dynamicsAxConverter.html
 Automatically generate DataContractAtrribute Class and Members.
 Enter your ClassName and variable Types,Name. Press the Generate button and automatically generate your class.
 <h3>Example output</h3>
@@ -36,7 +36,7 @@ public boolean parmSuccess(boolean _success = success)
 ```
 
 # ConvertToPascalCase
-Camel case class name/property convert to Pascal Case: http://converter.semihcelikol.com/modelClassConverter.html
+Camel case class name/property convert to Pascal Case: https://converter.semihcelikol.com/modelClassConverter.html
 
 # Example Camel case to pascal case
 
