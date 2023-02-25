@@ -1,7 +1,42 @@
-# Converter online tool || Camel case to pascal case or Pascal case to camel case
+# Converter online tool
+
+# Dynamics Ax Converter
+Automatically generate DataContractAtrribute Class and Members.
+Enter your ClassName and variable Types,Name. Press the Generate button and automatically generate your class.
+<h3>Example output</h3>
+```
+[DataContractAttribute]
+class SemResultModel
+{
+    boolean     success;
+    str         message;
+}
+
+[DataMemberAttribute('Message')]
+public str parmMessage(str _message = message)
+{
+    message = _message;
+
+    return message;
+}
+
+
+[DataMemberAttribute('Success')]
+public boolean parmSuccess(boolean _success = success)
+{
+    success = _success;
+
+    return success;
+}
+
+
+```
+
+Generate
+
 
 # ConvertToPascalCase
-Camel case class name/property convert to Pascal Case: http://converter.semihcelikol.com/
+Camel case class name/property convert to Pascal Case: http://converter.semihcelikol.com/modelClassConverter.html
 
 # Example Camel case to pascal case
 
