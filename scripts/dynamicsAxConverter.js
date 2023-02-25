@@ -26,7 +26,7 @@ btnGenerate.click(() => {
         var variableNameCamelCase = toCamelCase(variableName);
 
         classDeclaration += "   "+ variableType + " " + variableNameCamelCase + ";\n";
-        parmMethod += "[DataMemberAttribute(" + variableNamePascalCase + ")]\n";
+        parmMethod += "[DataMemberAttribute('" + variableNamePascalCase + "')]\n";
         parmMethod += "public " + variableType + " parm" + variableNamePascalCase + "(" + variableType + " _" + variableNameCamelCase + " = " + variableNameCamelCase +")\n";
         parmMethod += "{\n      "+ variableNameCamelCase + " = _" + variableNameCamelCase + ";\n\n";
         parmMethod += "      return " + variableNameCamelCase + ";\n}\n\n";
