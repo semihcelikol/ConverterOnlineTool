@@ -2,11 +2,23 @@ document.addEventListener("click", function(e)
 {
     if (e.target.name == "convertPascalCase")
     {
+        if (typeof gtag === 'function') {
+            gtag('event', 'convert_model_class', {
+                'type': 'PascalCase'
+            });
+        }
+
         converter(0);
     }
 
     if (e.target.name == "convertCamelCase")
     {
+        if (typeof gtag === 'function') {
+            gtag('event', 'convert_model_class', {
+                'type': 'CamelCase'
+            });
+        }
+
         converter(1);
     }
 

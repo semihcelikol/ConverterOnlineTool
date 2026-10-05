@@ -14,6 +14,15 @@ addItem.click(() => {
 });
 
 btnGenerate.click(() => {
+
+    // Analytics Event
+    if (typeof gtag === 'function') {
+        gtag('event', 'convert_dynamics_ax', {
+            'event_category': 'Tool Usage',
+            'event_label': 'Generate AX DataContract'
+        });
+    }
+    
     var classNameVal = $("#className").val();
     var classDeclaration = "[DataContractAttribute]\nclass " + classNameVal + "\n{\n";
     var parmMethod = "";
